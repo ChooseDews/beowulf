@@ -25,12 +25,18 @@ angular.module('app', [
     parent: navigation
   })
 
-  .state('login', {
-    url: "/login",
-    templateUrl: "login/login"
+  .state('edit', {
+    url: "/edit",
+    templateUrl: "edit/edit",
+    parent: navigation
   })
-
-
+  
+  
+  .state('edit_char', {
+    url: "/edit/:character",
+    templateUrl: "edit/character",
+    parent: navigation
+  })
 
 
   .state('orders', {
@@ -40,12 +46,20 @@ angular.module('app', [
 
   })
 
-  .state('customer', {
-    url: "/customer",
-    templateUrl: "customers/customer",
+  .state('characters', {
+    url: "/characters",
+    templateUrl: "chars/list",
     parent: navigation
 
   })
+  
+   .state('character', {
+    url: "/character/:id",
+    templateUrl: "chars/single",
+    parent: navigation
+
+  })
+  
   
    .state('reports', {
     url: "/reports",

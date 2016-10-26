@@ -3,47 +3,54 @@
     {
       "name": "Beowulf",
       "picture": "/images/Beowulf.jpg",
-      "disc": "An amazing fighter",
-      "id": "faa33137-2cb9-4ed2-280a-07c4586e05d8"
+      "disc": "The protagonist of the epic, Beowulf is a Geatish hero who fights the monster Grendel, Grendel’s mother, and a fire-breathing dragon. Beowulf’s boasts and encounters reveal him to be the strongest, ablest warrior around. In his youth, he personifies all of the best values of the heroic culture. In his old age, he proves a wise and effective ruler.",
+      "id": "faa33137-2cb9-4ed2-280a-07c4586e05t9",
+      "evil": false
     },
     {
       "name": "Grendel",
       "picture": "/images/Grendel.jpg",
-      "disc": "An amazing fighter",
-      "evil": "true",
-      "id": "7fd88371-4876-535c-2e10-fb4ee765f656"
+      "disc": "A demon descended from Cain, Grendel preys on Hrothgar’s warriors in the king’s mead-hall, Heorot. Because his ruthless and miserable existence is part of the retribution exacted by God for Cain’s murder of Abel, Grendel fits solidly within the ethos of vengeance that governs the world of the poem.",
+      "evil": true,
+      "id": "7fd88371-4876-535c-2e10-fb4ee765f6t8"
     },
     {
       "name": "Grendal's Mother",
       "picture": "/images/grendal_mother.jpg",
-      "disc": "An amazing fighter",
-      "evil": "true",
-      "id": "7448312f-cc3b-cd11-a362-4f4f237d337a"
+      "disc": "An unnamed swamp-hag, Grendel’s mother seems to possess fewer human qualities than Grendel, although her terrorization of Heorot is explained by her desire for vengeance—a human motivation.",
+      "evil": true,
+      "id": "7448312f-cc3b-cd11-a362-4f4f237d33t7"
     },
     {
       "name": "Hrothgar",
       "picture": "/images/Hrothgar.jpg",
-      "disc": "An amazing fighter",
-      "id": "a2e00730-369a-685b-d6b4-634cefa9c9b8"
+      "disc": "The king of the Danes. Hrothgar enjoys military success and prosperity until Grendel terrorizes his realm. A wise and aged ruler, Hrothgar represents a different kind of leadership from that exhibited by the youthful warrior Beowulf. He is a father figure to Beowulf and a model for the kind of king that Beowulf becomes.",
+      "id": "a2e00730-369a-685b-d6b4-634cefa9c9t6"
     },
     {
       "name": "Unferth",
       "picture": "/images/unferth.jpg",
-      "disc": "An amazing fighter",
-      "id": "a2e00730-369a-685b-d6b4-634cefa9c9b8"
+      "disc": "A Danish warrior who is jealous of Beowulf, Unferth is unable or unwilling to fight Grendel, thus proving himself inferior to Beowulf.",
+      "id": "a2e00730-369a-685b-d6b4-634cefa9c9bt5"
     },
     {
       "name": "Wiglaf",
       "picture": "/images/Wiglaf.jpg",
-      "disc": "An amazing fighter",
-      "id": "a2e00730-369a-685b-d6b4-634cefa9c9b8"
+      "disc": "A young kinsman and retainer of Beowulf who helps him in the fight against the dragon while all of the other warriors run away. Wiglaf adheres to the heroic code better than Beowulf’s other retainers, thereby proving himself a suitable successor to Beowulf.",
+      "id": "a2e00730-369a-685b-d6b4-634cefa9c9t4"
     },
     {
       "name": "Dragon",
       "picture": "/images/Dragon.jpg",
-      "disc": "An amazing fighter",
-      "evil": "true",
-      "id": "a2e00730-369a-685b-d6b4-634cefa9c9b8"
+      "disc": "An ancient, powerful serpent, the dragon guards a horde of treasure in a hidden mound. Beowulf’s fight with the dragon constitutes the third and final part of the epic.",
+      "evil": true,
+      "id": "a2e00730-369a-685b-d6b4-634cefa9c9t3"
+    },
+    {
+      "id": "a8e5b5e3-0f1a-2191-f327-fc223aad7ct2",
+      "name": "John",
+      "picture": "/images/Dragon.jpg",
+      "evil": true
     }
   ]
 }

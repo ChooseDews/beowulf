@@ -1,0 +1,46 @@
+<div ng-controller="charsListController" class="characters sea-blue">
+
+
+  
+  <h1 class="white-text center" style="margin: 0px; padding: 40px; padding-bottom: 0px;">Beowulf Characters</h1>
+  
+  
+  <div class="row">
+  
+  <div class="col m4 offset-m4">
+    
+    
+    <div input-field>
+    <input type="text" class="white-text" ng-model="search.name">
+    <label>Search Characters</label>
+</div>
+    
+    </div>
+  
+  </div>
+  
+  
+  
+  <div class="row">
+
+
+<div ng-repeat="character in characters | filter:search:strict" class="col l3 m6">
+
+
+<user-card ui-sref="character({id: character.id})">
+
+<img ng-src="{{character.picture}}" alt="">
+
+<name ng-class="{'evil': character.evil}">{{character.name}}</name>
+
+</user-card>
+
+</div>
+
+
+
+
+</div>
+  
+
+</div>

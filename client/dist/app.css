@@ -890,6 +890,23 @@
 .center{
   text-align: center;
 }
+
+h1{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h2{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h3{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+.characters{
+  
+  min-height: calc(100vh - 70px);
+  
+}
 entry {
   width: 100%;
   display: block;

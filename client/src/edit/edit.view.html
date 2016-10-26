@@ -1,0 +1,55 @@
+<div class="container" ng-controller="editListController">
+
+
+
+  <br><br><br>
+
+
+
+  <div class="card white" style="padding: 10px;">
+
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Id</th>
+          <th>Photo</th>
+          <th>Delete</th>
+
+
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr ng-repeat="c in cs">
+          <td ui-sref="edit_char({character: c.id})">{{c.name}}</td>
+          <td ui-sref="edit_char({character: c.id})">{{c.id}}</td>
+          <td ui-sref="edit_char({character: c.id})">{{c.picture}}</td>
+          <td ng-click="delete(c.id)">Remove</td>
+
+
+        </tr>
+
+      </tbody>
+    </table>
+    
+    
+    <br><br><hr><br>
+    
+          <a class="waves-effect waves-light btn red" ng-click="createNew()">Create</a>
+    
+    
+    <br>
+
+
+
+  </div>
+  
+  
+   <br><br><br>
+
+
+
+
+</div>
