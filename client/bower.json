@@ -1,0 +1,23 @@
+{
+  "name": "Catch The Fever Admin",
+  "homepage": "https://github.com/ChooseDews/CatchTheFeverV2",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "materialize": "^0.97.7",
+    "moment": "^2.15.1",
+    "jquery": "^3.1.1",
+    "angular-animate": "^1.5.8",
+    "angular-touch": "^1.5.8",
+    "ng-fastclick": "^1.0.2",
+    "angular-materialize": "^0.2.1",
+    "SpinKit": "spinkit#^1.2.5",
+    "angular-loading-bar": "^0.9.0",
+    "ngmap": "^1.17.8",
+    "Materialize": "materialize#0.97.6"
+  }
+}

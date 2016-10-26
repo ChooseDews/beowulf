@@ -1,0 +1,200 @@
+#nav-mobile {
+  background-color: #434A50;
+}
+
+#sidenav-overlay{
+  display: none;
+}
+
+.nav-height {
+  height: 60px;
+}
+
+#content {
+  width: 100%;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.main-row {
+  margin-bottom: 0 !important;
+}
+
+body {
+  background-color: #434A50;
+}
+
+.navigation-bar {
+  width: 100%;
+  background: #434A50;
+  height: 70px;
+  z-index: 100;
+}
+
+.navigation-bar .logo {
+  background-color: #D32F2F;
+  height: 70px;
+  float: left;
+  text-align: center;
+}
+
+.logo img {
+  max-height: 100%;
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  .navigation-bar {
+    position: fixed;
+    top: 0;
+    height: 60px;
+  }
+  .navigation-bar .logo {
+    height: 60px;
+    width: 100px;
+  }
+}
+
+.navigation-bar li {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 1.6em;
+  padding: 15px;
+  paddding-top: 20px;
+  text-transform: uppercase;
+    font-family: 'Alegreya Sans SC', sans-serif;  padding-bottom: 0px;
+}
+
+.navigation-bar li.first {
+  margin-left: 10px;
+}
+
+.navigation-bar li.right {
+  float: right;
+  font-size: 1em;
+  text-transform: capitalize;
+  padding: 25px;
+  padding-bottom: 0px;
+}
+
+#nav-mobile .logo {
+  width: 100%;
+  text-align: center;
+  background-color: #D32F2F;
+  padding: 10px 30px;
+}
+
+#nav-mobile .logo img {
+  width: 100%;
+}
+
+li.search {
+  padding: 17px !important;
+  padding-bottom: 0px !important;
+}
+
+.navigation-bar li.right i {
+  font-size: 2.7em;
+}
+
+.navigation-side-bar {
+  background: #0074B1;
+  height: 60px;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 15px;
+  font-family: "Oswald";
+}
+
+a.mobile-menu {
+  padding-top: 5px;
+  display: block;
+}
+
+.mobile-brand {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 8px !important;
+  margin-left: -30px !important;
+  font-family: "Oswald";
+}
+
+.navigation-side {
+  background: #434A50;
+  width: 100%;
+}
+
+.content-view {
+  padding: 0px;
+}
+
+.navigation.col {
+  padding: 0px;
+}
+
+.navigation-bar .user {
+  color: white;
+  font-size: 1em;
+  padding: 15px;
+  padding-right: 30px;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: right;
+}
+
+.navigation-side li {
+  list-style-type: none;
+  width: 100%;
+  height: 20px;
+}
+
+.navigation-side li {
+  list-style-type: none;
+  width: 100%;
+  height: 30px;
+  padding: 25px;
+  color: white;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  border-left: solid 4px #434A50;
+  line-height: 0px;
+}
+
+.navigation-side li:hover {
+  background-color: #363b40;
+  border-left: solid 4px #D32F2F;
+}
+
+.navigation-side li.active {
+  background-color: #363b40;
+  border-left: solid 4px #D32F2F;
+}
+
+.navigation-side i {
+  line-height: 0px;
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.navigation-side .user {
+  padding: 30px;
+  line-height: 0px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.menu {
+  color: white;
+  font-size: 2em;
+  float: right;
+  padding: 10px 20px;
+}

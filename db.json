@@ -1,0 +1,49 @@
+{
+  "characters": [
+    {
+      "name": "Beowulf",
+      "picture": "/images/Beowulf.jpg",
+      "disc": "An amazing fighter",
+      "id": "faa33137-2cb9-4ed2-280a-07c4586e05d8"
+    },
+    {
+      "name": "Grendel",
+      "picture": "/images/Grendel.jpg",
+      "disc": "An amazing fighter",
+      "evil": "true",
+      "id": "7fd88371-4876-535c-2e10-fb4ee765f656"
+    },
+    {
+      "name": "Grendal's Mother",
+      "picture": "/images/grendal_mother.jpg",
+      "disc": "An amazing fighter",
+      "evil": "true",
+      "id": "7448312f-cc3b-cd11-a362-4f4f237d337a"
+    },
+    {
+      "name": "Hrothgar",
+      "picture": "/images/Hrothgar.jpg",
+      "disc": "An amazing fighter",
+      "id": "a2e00730-369a-685b-d6b4-634cefa9c9b8"
+    },
+    {
+      "name": "Unferth",
+      "picture": "/images/unferth.jpg",
+      "disc": "An amazing fighter",
+      "id": "a2e00730-369a-685b-d6b4-634cefa9c9b8"
+    },
+    {
+      "name": "Wiglaf",
+      "picture": "/images/Wiglaf.jpg",
+      "disc": "An amazing fighter",
+      "id": "a2e00730-369a-685b-d6b4-634cefa9c9b8"
+    },
+    {
+      "name": "Dragon",
+      "picture": "/images/Dragon.jpg",
+      "disc": "An amazing fighter",
+      "evil": "true",
+      "id": "a2e00730-369a-685b-d6b4-634cefa9c9b8"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<ul id="nav-mobile" class="side-nav" ng-click="closeSide()">
+  <div class="navigation-side navigation">
+
+    <div class="logo">
+
+
+      <img src="/images/logo_saxon.png" alt="">
+
+
+
+    </div>
+
+    <div ng-include="'navigation/menu'"></div>
+    
+    
+
+  </div>
+</ul>
+
+
+
+
+<div class="row main-row">
+
+
+
+  <div id="content" class="content navigation">
+
+    <div class="navigation-bar" ng-click="openSide()">
+
+
+
+
+      <div class="logo">
+
+
+        <img src="/images/logo_saxon.png" alt="">
+
+
+
+      </div>
+
+
+      <a class="hide-on-med-and-up mobile-menu" ng-click="openSide()">
+
+        <i class="material-icons menu">menu</i>
+
+
+      </a>
+
+
+      <a class="button-collapse hide-on-med-and-up hide" data-activates="nav-mobile" data-sidenav="left" data-menuwidth="320" data-closeonclick="false"><i class="material-icons menu">menu</i></a>
+
+
+      <div class="hide-on-small-only">
+        <div ng-include="'navigation/menu'"></div>
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+    <div class="hide-on-med-and-up nav-height"></div>
+
+
+
+    <div class="content-view">
+      <div ui-view></div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+</div>
