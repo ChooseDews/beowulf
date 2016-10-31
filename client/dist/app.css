@@ -907,6 +907,22 @@ h3{
   min-height: calc(100vh - 70px);
   
 }
+.credits {
+  background-color: #365560;
+  min-height: 90vh;
+}
+
+.credits h1{
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.well {
+  min-height: 100px;
+  min-width: 200px;
+  margin: 20px;
+  border: dashed 1px black;
+}
 entry {
   width: 100%;
   display: block;
@@ -919,13 +935,6 @@ entry {
     background-size: cover;
 }
 
-.timeline{
-   position: relative;
-    float: right;
-    top: calc(90vh - 70px);
-    margin-right: 100px;
-}
-
 .sea-blue{
       background-color: #365560 !important;
 }
@@ -933,6 +942,14 @@ entry {
 .evil{
         background-color: #d32f2f !important;
 
+}
+
+
+.timeline-btn{
+   position: relative;
+    float: right;
+    top: calc(90vh - 70px);
+    margin-right: 100px;
 }
 
 user-card {
@@ -1209,4 +1226,114 @@ a.mobile-menu {
   font-size: 2em;
   float: right;
   padding: 10px 20px;
+}
+.time {
+  min-height: 100vh;
+}
+
+.boat {
+  width: 100px;
+  padding: 30px 0px;
+  position: fixed;
+  left: calc(50vw - 50px);
+  z-index: 100;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.intro {
+  background: #397b92;
+  padding: 100px 0;
+  min-height: 250px;
+}
+
+.time .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline {
+      left: 300px;
+  
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  color: white;
+  background: #397b92;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #397b92 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #397b92;
 }

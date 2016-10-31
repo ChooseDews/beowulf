@@ -7,7 +7,7 @@
 <div class="home">
   <entry>
     
-  <a class="btn btn-flat white btn-large timeline">See The Timeline</a>
+  <a class="btn btn-flat white btn-large timeline-btn" ui-sref="timeline">See The Timeline</a>
 
     
     
@@ -27,7 +27,7 @@
 <div ng-repeat="character in characters | limitTo:4" class="col l3 m6">
 
 
-<user-card>
+<user-card ui-sref="character({id: character.id})">
 
 <img src="{{character.picture}}" alt="">
 

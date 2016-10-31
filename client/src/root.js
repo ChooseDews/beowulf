@@ -5,6 +5,7 @@ angular.module('app', [
   'ng-fastclick',
   'angular-loading-bar',
   'ui.materialize',
+  'ngFileUpload',
   'ngMap'
 ]).config(function($stateProvider, $urlRouterProvider) {
 
@@ -39,9 +40,9 @@ angular.module('app', [
   })
 
 
-  .state('orders', {
-    url: "/orders",
-    templateUrl: "orders/list",
+  .state('credits', {
+    url: "/credits",
+    templateUrl: "credits/credit",
     parent: navigation
 
   })
@@ -60,27 +61,15 @@ angular.module('app', [
 
   })
   
-  
-   .state('reports', {
-    url: "/reports",
-    templateUrl: "reports/report",
-    parent: navigation
-
-  })
-  
-   .state('logs', {
-    url: "/logs",
-    templateUrl: "logs/logs",
+   .state('timeline', {
+    url: "/timeline",
+    templateUrl: "timeline/time",
     parent: navigation
 
   })
   
   
-  .state('test', {
-    url: "/test",
-    templateUrl: "customers/test",
-
-  })
+ 
 
 
   ;

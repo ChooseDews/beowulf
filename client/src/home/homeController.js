@@ -24,7 +24,7 @@ function shuffle(array) {
 
 $character.list().then(function(data){
     console.log(data);
-    $scope.characters = shuffle(data);
+    $scope.characters = data;
 })
 
 $character.get("7fd88371-4876-535c-2e10-fb4ee765f656").then(function(data){

@@ -10,13 +10,6 @@ entry {
     background-size: cover;
 }
 
-.timeline{
-   position: relative;
-    float: right;
-    top: calc(90vh - 70px);
-    margin-right: 100px;
-}
-
 .sea-blue{
       background-color: #365560 !important;
 }
@@ -24,6 +17,14 @@ entry {
 .evil{
         background-color: #d32f2f !important;
 
+}
+
+
+.timeline-btn{
+   position: relative;
+    float: right;
+    top: calc(90vh - 70px);
+    margin-right: 100px;
 }
 
 user-card {

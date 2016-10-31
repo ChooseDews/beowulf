@@ -5,21 +5,47 @@
       "picture": "/images/Beowulf.jpg",
       "disc": "The protagonist of the epic, Beowulf is a Geatish hero who fights the monster Grendel, Grendel’s mother, and a fire-breathing dragon. Beowulf’s boasts and encounters reveal him to be the strongest, ablest warrior around. In his youth, he personifies all of the best values of the heroic culture. In his old age, he proves a wise and effective ruler.",
       "id": "faa33137-2cb9-4ed2-280a-07c4586e05t9",
-      "evil": false
+      "evil": false,
+      "relationships": [
+        {
+          "id": "0c620723-6cb7-f454-fe23-44625dfe224f",
+          "relationship": "Nephew",
+          "name": "Hygelac"
+        },
+        {
+          "id": "835e0870-6711-c6cb-bca7-03b487ce9816",
+          "relationship": "Father",
+          "name": "Ecgtheow"
+        }
+      ]
     },
     {
       "name": "Grendel",
       "picture": "/images/Grendel.jpg",
       "disc": "A demon descended from Cain, Grendel preys on Hrothgar’s warriors in the king’s mead-hall, Heorot. Because his ruthless and miserable existence is part of the retribution exacted by God for Cain’s murder of Abel, Grendel fits solidly within the ethos of vengeance that governs the world of the poem.",
       "evil": true,
-      "id": "7fd88371-4876-535c-2e10-fb4ee765f6t8"
+      "id": "7fd88371-4876-535c-2e10-fb4ee765f6t8",
+      "relationships": [
+        {
+          "id": "7448312f-cc3b-cd11-a362-4f4f237d33t7",
+          "relationship": "Mother",
+          "name": "Grendel's Mother"
+        }
+      ]
     },
     {
-      "name": "Grendal's Mother",
+      "name": "Grendel's Mother",
       "picture": "/images/grendal_mother.jpg",
       "disc": "An unnamed swamp-hag, Grendel’s mother seems to possess fewer human qualities than Grendel, although her terrorization of Heorot is explained by her desire for vengeance—a human motivation.",
       "evil": true,
-      "id": "7448312f-cc3b-cd11-a362-4f4f237d33t7"
+      "id": "7448312f-cc3b-cd11-a362-4f4f237d33t7",
+      "relationships": [
+        {
+          "id": "7fd88371-4876-535c-2e10-fb4ee765f6t8",
+          "relationship": "Son",
+          "name": "Grendel"
+        }
+      ]
     },
     {
       "name": "Hrothgar",
@@ -48,9 +74,138 @@
     },
     {
       "id": "a8e5b5e3-0f1a-2191-f327-fc223aad7ct2",
-      "name": "John",
-      "picture": "/images/Dragon.jpg",
-      "evil": true
+      "name": "Wealhtheow",
+      "picture": "/images/Wealtheow2-1-.jpg",
+      "evil": false,
+      "disc": "Hrothgar’s wife, the gracious queen of the Danes."
+    },
+    {
+      "id": "fc90cc2c-d717-19a4-6f1d-2c238d3ec2cc",
+      "name": "Shield Sheafson",
+      "disc": "The legendary Danish king from whom Hrothgar is descended, Shield Sheafson is the mythical founder who inaugurates a long line of Danish rulers and embodies the Danish tribe’s highest values of heroism and leadership. The poem opens with a brief account of his rise from orphan to warrior-king, concluding, “That was one good king” (11).",
+      "picture": "/images/Conan.jpg",
+      "relationships": [
+        {
+          "relationship": "Son",
+          "name": "Healfdene"
+        }
+      ]
+    },
+    {
+      "id": "97790590-35cc-f7d9-2738-a9533862ba58",
+      "disc": "The second king listed in the genealogy of Danish rulers with which the poem begins. Beow is the son of Shield Sheafson and father of Halfdane. The narrator presents Beow as a gift from God to a people in need of a leader. He exemplifies the maxim, “Behavior that’s admired / is the path to power among people everywhere” (24–25).",
+      "name": "Beow",
+      "picture": "/images/BeowulfGerMovie.jpg"
+    },
+    {
+      "id": "63e877c7-af42-d767-5fe4-cd73d84f1837",
+      "name": "Halfdane",
+      "disc": "The father of Hrothgar, Heorogar, Halga, and an unnamed daughter who married a king of the Swedes, Halfdane succeeded Beow as ruler of the Danes.",
+      "picture": "/images/empty.jpg"
+    },
+    {
+      "id": "e5d3bc21-af95-0ee9-763e-03a68cdef322",
+      "name": "Hrethric",
+      "disc": "Hrothgar’s elder son, Hrethric stands to inherit the Danish throne, but Hrethric’s older cousin Hrothulf will prevent him from doing so. Beowulf offers to support the youngster’s prospect of becoming king by hosting him in Geatland and giving him guidance.",
+      "picture": "/images/tumblr_o0o744vW2T1rya2gy_og_1280.jpg"
+    },
+    {
+      "id": "78396575-05da-c9e4-bd05-3a2f49833fdc",
+      "name": "Hrothmund",
+      "disc": "The second son of Hrothgar.",
+      "picture": "/images/empty.jpg"
+    },
+    {
+      "id": "6a790852-02c2-dbd4-1818-0663e73bfc22",
+      "name": "Hrothulf",
+      "disc": "Hrothgar’s nephew, Hrothulf betrays and usurps his cousin, Hrethic, the rightful heir to the Danish throne. Hrothulf’s treachery contrasts with Beowulf’s loyalty to Hygelac in helping his son to the throne.",
+      "picture": "/images/empty.jpg"
+    },
+    {
+      "id": "6eca3a82-5826-00b6-d78a-f17c2014f6e9",
+      "name": "Aeschere",
+      "disc": "Hrothgar’s trusted adviser.",
+      "picture": "/images/dude.jpg"
+    },
+    {
+      "id": "0c620723-6cb7-f454-fe23-44625dfe224f",
+      "name": "Hygelac",
+      "disc": "Beowulf’s uncle, king of the Geats, and husband of Hygd. Hygelac heartily welcomes Beowulf back from Denmark.",
+      "picture": "/images/270568614.jpg",
+      "relationships": [
+        {
+          "name": "Hygd",
+          "relationship": "Wife",
+          "id": "519125ac-10ea-592b-bb02-829e8402b72d"
+        },
+        {
+          "id": "835e0870-6711-c6cb-bca7-03b487ce9816",
+          "relationship": "Brother In Law",
+          "name": "Ecgtheow"
+        }
+      ]
+    },
+    {
+      "id": "519125ac-10ea-592b-bb02-829e8402b72d",
+      "disc": "Hygelac’s wife, the young, beautiful, and intelligent queen of the Geats. Hygd is contrasted with Queen Modthryth.",
+      "name": "Hygd",
+      "picture": "/images/queen.jpg",
+      "relationships": [
+        {
+          "relationship": "Husband",
+          "id": "0c620723-6cb7-f454-fe23-44625dfe224f",
+          "name": "Hygelac"
+        }
+      ]
+    },
+    {
+      "id": "835e0870-6711-c6cb-bca7-03b487ce9816",
+      "name": "Ecgtheow",
+      "disc": "Beowulf’s father, Hygelac’s brother-in-law, and Hrothgar’s friend. Ecgtheow is dead by the time the story begins, but he lives on through the noble reputation that he made for himself during his life and in his dutiful son’s remembrances.",
+      "picture": "/images/8188-27116.gif",
+      "relationships": [
+        {
+          "relationship": "Son",
+          "name": "Beowulf",
+          "id": "faa33137-2cb9-4ed2-280a-07c4586e05t9"
+        },
+        {
+          "id": "0c620723-6cb7-f454-fe23-44625dfe224f",
+          "relationship": "Brother In Law",
+          "name": "Hygelac"
+        }
+      ]
+    },
+    {
+      "id": "2fd691eb-8461-3870-9759-177580887212",
+      "disc": "The Geatish king who took Beowulf in as a ward after the death of Ecgtheow, Beowulf’s father.",
+      "name": "King Hrethel",
+      "picture": "/images/empty.jpg"
+    },
+    {
+      "id": "ae240c0c-151a-3836-4c58-650477cd5bd7",
+      "name": "Breca",
+      "disc": "Beowulf’s childhood friend, whom he defeated in a swimming match. Unferth alludes to the story of their contest, and Beowulf then relates it in detail.",
+      "picture": "/images/empty.jpg"
+    },
+    {
+      "id": "a836dd2b-e931-303b-e460-35d2e23f41e0",
+      "name": "Sigemund",
+      "disc": "A figure from Norse mythology, famous for slaying a dragon. Sigemund’s story is told in praise of Beowulf and foreshadows Beowulf’s encounter with the dragon.",
+      "picture": "/images/empty.jpg"
+    },
+    {
+      "id": "72858920-f50e-e289-193c-72e65a2f54d8",
+      "name": "King Heremod",
+      "disc": "An evil king of legend. The scop, or bard, at Heorot discusses King Heremod as a figure who contrasts greatly with Beowulf.",
+      "picture": "/images/empty.jpg"
+    },
+    {
+      "id": "f0bc6660-ad7f-12aa-68ca-bfbe7635b28b",
+      "name": "Queen Modthryth",
+      "disc": "A wicked queen of legend who punishes anyone who looks at her the wrong way. Modthryth’s story is told in order to contrast her cruelty with Hygd’s gentle and reasonable behavior.",
+      "evil": true,
+      "picture": "/images/empty.jpg"
     }
   ]
 }

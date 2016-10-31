@@ -40,7 +40,33 @@
 
 
       </div>
+      
+      
+       <div class="card">
 
+
+        <div class="card-content">
+
+          
+                    <span class="card-title">{{character.name}}'s Relationships</span>
+
+
+               <ul class="collection">
+      <li class="collection-item" ng-repeat="r in character.relationships" ui-sref="character({id: r.id})">{{r.name}} - {{r.relationship}}</li>
+               
+
+
+    </ul>
+
+        </div>
+
+
+
+      </div>
+
+      
+      
+            
 
 
     </div>

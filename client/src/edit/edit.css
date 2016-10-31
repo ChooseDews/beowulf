@@ -1,0 +1,6 @@
+.well {
+  min-height: 100px;
+  min-width: 200px;
+  margin: 20px;
+  border: dashed 1px black;
+}

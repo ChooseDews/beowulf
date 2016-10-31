@@ -12,7 +12,7 @@ exports.createCharacter = function(character){
     return character;
 }
 
-exports.getCharacter = function(Cid){
+exports.getCharacter = getCharacter = function(Cid){
     return db.get('characters').find({ id: Cid }).value();
 }
 

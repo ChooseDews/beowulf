@@ -1,0 +1,10 @@
+.credits {
+  background-color: #365560;
+  min-height: 90vh;
+}
+
+.credits h1{
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}

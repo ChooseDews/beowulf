@@ -10,11 +10,15 @@ module.exports = function(grunt) {
 
     'bower_components/Materialize/dist/js/materialize.min.js',
     'bower_components/angular-materialize/src/angular-materialize.js',
+    
+
 
     'bower_components/angular-animate/angular-animate.min.js',
     'bower_components/angular-touch/angular-touch.min.js',
     'bower_components/ng-fastclick/dist/index.min.js',
     'bower_components/angular-ui-router/release/angular-ui-router.min.js',
+    
+            'bower_components/ng-file-upload/ng-file-upload-all.min.js',
 
 
     'bower_components/ngmap/build/scripts/ng-map.min.js',
